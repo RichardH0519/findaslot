@@ -5,7 +5,7 @@ import com.example.findaslot.models.parking.SearchResponse
 
 class ParkingRepository {
     private var searchService = RetrofitObject.retrofitService
-    private var API_KEY = "AIzaSyBfIUf8gsTetLNxQLKi1PXRo2_ORC2lcwY"
+    private var API_KEY = ""
 
     suspend fun getResponse(location: String): SearchResponse {
         return searchService.nearbySearchParking(location, "1000", "parking", API_KEY)
