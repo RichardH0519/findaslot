@@ -1,0 +1,24 @@
+package com.example.findaslot.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
+
+val Purple40 = Color(0xFF6650a4)
+val PurpleGrey40 = Color(0xFF625b71)
+val Pink40 = Color(0xFF7D5260)
+
+//Color for the app components go here
+//format: val ColorName = Color(R,G,B)
+
+val NavyBlue = Color(0, 0, 128)
+val CornFlowerBlue = Color(100, 149, 237)
+val MediumBlue = Color(0, 0, 205)
+
+val GoldenRod = Color(218, 165, 32)
+
+val OrangeRed = Color(255, 69, 0)
+
+val IndianRed = Color(205, 92, 92)
